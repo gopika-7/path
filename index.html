@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+     <header class="rectangle-parent">
+        <img
+          class="frame-item"
+          loading="lazy"
+          alt=""
+          src="image\logo.png"
+        />
+        <div class="company-logo-parent">
+          <div class="company-logo"></div>
+          <div class="pathfounder-ai"> PathFounder AI</div>
+        </div>
+
+        <div class="frame-wrapper">
+          <div class="menu-parent">
+            <div class="menu">
+              <div class="menu-options">
+                <a class="home">Home</a>
+              </div>
+              <div class="menu-options1">
+                <a class="about-us" id="aboutUsText">About Us</a>
+              </div>
+              <div class="menu-options2">
+                <div class="find-your-future1" id="findYourFuture">
+                  Find your Future Career
+                </div>
+              </div>
+              <div class="contact-content-wrapper">
+                <div class="contact-content">
+                  <a class="contact-us" id="contactUsText">Contact Us</a>
+                </div>
+              </div>
+              <div class="ellipse-parent">
+                <div class="frame-inner"></div>
+                <div class="sign-in-wrapper">
+                  <a class="sign-in" id="signInText">Sign In</a>
+                </div>
+              </div>
+              <img
+                class="user-alt-icon"
+                loading="lazy"
+                alt=""
+                src="image\user-alt.png"
+              />
+            </div>
+             </div>
+        </div>
+      </header>
+       <section class="frame-parent">
+            <div class="frame-group">
+                      <div class="slider">
+            <div class="slides">
+                <div class="slide" id="slide1"><img src="image/future.png"><h1 class="path-founder-ai">
+                    Path Founder Ai helps to find your Path for your future
+                  </h1></div>
+                <div class="slide" id="slide2"><img src="image\coder.png"><h1 class="path-founder-ai">
+                  Coder.?
+                  </h1></div>
+                <div class="slide" id="slide3"><img src="image\astronaut.png"><h1 class="path-founder-ai">
+                    Astronaut.?
+                  </h1></div>
+                <div class="slide" id="slide4"><img src="image\Architect.png"><h1 class="path-founder-ai">
+                   Architect.?
+                  </h1></div>
+                <div class="slide" id="slide5"><img src="image\scientist.png"><h1 class="path-founder-ai">
+                   Scientist.?
+                  </h1></div>
+            </div><button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+       <button class="next" onclick="moveSlide(1)">&#10095;</button>
+
+        </div></div>
+     </section>   <div></div>
+                     <section  class="content"><h2>Welcome to Path Founder AI</h2>
+                            <p>&nbsp; &nbsp;Your gateway to a fulfilling future! Our innovative platform uses advanced artificial intelligence to help you discover your ideal career path in just 15 questions.
+                                 Whether you're a student, a professional looking for a change, or simply exploring options, Path founder AI provides personalized insights to guide your career journey.</p>
+                                  </div> 
+                                <div class="content"><h1>Our Mission</h1>
+                                <p>&nbsp; &nbsp;Our mission is to harness advanced technological solutions to effectively resolve client challenges through innovative applications of AI. By integrating AI capabilities, we strive to deliver bespoke, efficient, and impactful results that exceed client expectations and drive sustainable success in a rapidly evolving digital landscape.</p>
+                            </div>
+                        <div class="content"><h1>Our Vision</h1>
+                        <p>&nbsp; &nbsp;To attain a leadership position in the IT industry, driven by pioneering technological advancements, strategic innovation, and exceptional client satisfaction.</p></div> 
+                
+                            <div class="content" id="aboutus"><h1> About Us</h1>
+                            <p> &nbsp; &nbsp; Zibean is a technology-focused company specializing in custom solution development across diverse domains, with a strong emphasis on data science and artificial intelligence. Established on July 1, 2024, 
+                                Zibean operates as a newly founded entity in the industry, committed to leveraging advanced technologies to meet specific client needs.</p></div>
+                        </section>
+    <script>
+        let slideIndex = 0;
+showSlides(slideIndex);
+
+function moveSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.querySelectorAll('.slide');
+    if (n >= slides.length) {
+        slideIndex = 0;
+    }
+    if (n < 0) {
+        slideIndex = slides.length - 1;
+    }
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+    }
+    slides[slideIndex].style.display = 'block';
+}
+      var findYourFuture = document.getElementById("findYourFuture");
+      if (findYourFuture) {
+        findYourFuture.addEventListener("click", function (e) {
+          window.location.href = "#future";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "#aboutus";
+        });
+      }
+      
+      var findYourFuture = document.getElementById("findYourFuture");
+      if (findYourFuture) {
+        findYourFuture.addEventListener("click", function (e) {
+          window.location.href = "#future";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href = "#contact";
+        });
+      }
+      
+      var feedbackText = document.getElementById("feedbackText");
+      if (feedbackText) {
+        feedbackText.addEventListener("click", function (e) {
+          window.location.href = "./fb.html";
+        });
+      }
+      
+      var signInText = document.getElementById("signInText");
+      if (signInText) {
+        signInText.addEventListener("click", function (e) {
+          window.location.href = "./main-layout.html";
+        });
+      }
+      </script>
+      
+  </body>
+</html>

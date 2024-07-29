@@ -1,0 +1,218 @@
+.frame-child9,
+.root-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.root-child4 {
+  object-fit: cover;
+}
+.frame-child9 {
+  background-color: var(--color-black);
+  display: none;
+  z-index: 1;
+}
+.frame-child10 {
+  position: absolute;
+  top: 73px;
+  left: 672px;
+  background-color: var(--color-red-100);
+  width: 284px;
+  height: 8px;
+  z-index: 2;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 113px;
+  z-index: 1;
+}
+.home6 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+  cursor: pointer;
+}
+.menu-options10 {
+  height: 30px;
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.about-us6 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 112.6px;
+  cursor: pointer;
+}
+.menu-options11 {
+  height: 30px;
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-7xs) 0;
+  box-sizing: border-box;
+}
+.find-your-future8 {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.menu-options12 {
+  height: 30px;
+  flex: 0.9346;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-7xs) 0;
+  box-sizing: border-box;
+  min-width: 199px;
+}
+.contact-us6,
+.feedback6 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  cursor: pointer;
+}
+.feedback6 {
+  display: inline-block;
+  min-width: 118.8px;
+}
+.contact-us-group,
+.menu-inner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us-group {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xs-8);
+}
+.menu-inner1 {
+  height: 30px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 var(--padding-7xs);
+  box-sizing: border-box;
+  min-width: 205px;
+}
+.ellipse-div,
+.sign-in6 {
+  position: relative;
+  flex-shrink: 0;
+}
+.ellipse-div {
+  height: 30px;
+  width: 30.7px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.sign-in6 {
+  text-decoration: none;
+  align-self: stretch;
+  font-weight: 800;
+  color: inherit;
+  cursor: pointer;
+}
+.ellipse-group,
+.sign-in-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign-in-container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.ellipse-group {
+  width: 148.4px;
+  flex-direction: row;
+  gap: var(--gap-4xs-2);
+  font-size: var(--font-size-lg);
+}
+.user-alt-icon6 {
+  height: 15px;
+  width: 15.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7px;
+  right: 125.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.menu6 {
+  position: absolute;
+  top: 37px;
+  right: 0;
+  width: 1119px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs) var(--padding-84xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+  z-index: 2;
+}
+.root3 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 900px) {
+  .menu-inner1,
+  .menu-options12 {
+    flex: 1;
+  }
+  .menu6 {
+    flex-wrap: wrap;
+  }
+  .root3 {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us6,
+  .contact-us6,
+  .feedback6,
+  .find-your-future8,
+  .home6 {
+    font-size: var(--font-size-lgi);
+  }
+  .contact-us-group {
+    flex-wrap: wrap;
+  }
+  .menu-inner1 {
+    height: auto;
+  }
+}

@@ -1,0 +1,450 @@
+.login-rect-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.main-layout-child,
+.main-layout-item {
+  height: 8px;
+  width: 94px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.main-layout-item {
+  height: 1024px;
+  width: 1440px;
+  background-color: rgba(254, 15, 0, 0.25);
+  max-width: 100%;
+  z-index: 2;
+}
+.feedback3 {
+  width: 10.62%;
+  top: 21.21%;
+  left: 71.76%;
+  font-weight: 800;
+  cursor: pointer;
+}
+.feedback3,
+.home3,
+.sign-in3 {
+  position: absolute;
+  display: none;
+}
+.sign-in3 {
+  width: 9.79%;
+  top: 12.12%;
+  left: 90.21%;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  cursor: pointer;
+}
+.home3 {
+  width: 8.87%;
+  top: 21.21%;
+  left: 9.2%;
+  font-weight: 900;
+}
+.about-us3,
+.contact-us3,
+.find-your-future5 {
+  position: absolute;
+  top: 21.21%;
+  font-weight: 800;
+  display: none;
+}
+.about-us3 {
+  width: 10.06%;
+  left: 18.05%;
+  color: var(--color-black);
+}
+.contact-us3,
+.find-your-future5 {
+  width: 12.17%;
+  left: 58.53%;
+  cursor: pointer;
+}
+.find-your-future5 {
+  width: 25.52%;
+  left: 31.19%;
+}
+.menu-child {
+  position: absolute;
+  height: 90.91%;
+  width: 2.74%;
+  top: 0;
+  right: 10.52%;
+  bottom: 9.09%;
+  left: 86.74%;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.user-alt-icon3 {
+  position: absolute;
+  height: 45.45%;
+  width: 1.38%;
+  top: 21.21%;
+  right: 11.25%;
+  bottom: 33.33%;
+  left: 87.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.menu3 {
+  height: 33px;
+  width: 1119px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 3;
+}
+.main-layout-inner {
+  height: 68px;
+  width: 593px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  z-index: 4;
+}
+.enter-your-email,
+.frame-child3,
+.main-layout-inner {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.enter-your-email {
+  width: 552px;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+  color: var(--color-gray);
+  flex-shrink: 0;
+  z-index: 5;
+}
+.frame-child3 {
+  width: 734px;
+  height: 762px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+}
+.welcome-to,
+.zieben-goal-planning {
+  margin: 0;
+}
+.blank-line2 {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.welcome-to-zieben-container {
+  align-self: stretch;
+  height: 131px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.email-label,
+.frame-child4 {
+  height: 68px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.email-label {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-11xl) var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 800;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  min-width: 250px;
+  z-index: 4;
+}
+.frame-child4 {
+  width: 593px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.password-label {
+  width: calc(100% - 114px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 39px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-inter);
+  font-weight: 800;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  min-width: 300px;
+  max-width: 100%;
+}
+.linear-security-eye {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.rectangle-parent2 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 39px var(--padding-5xs) var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+  z-index: 2;
+}
+.forget-password {
+  width: 176px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.forgot-password {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+}
+.login-button-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.login {
+  position: absolute;
+  top: 10px;
+  left: 103px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 88px;
+  z-index: 3;
+}
+.login-button-container {
+  height: 60px;
+  width: 294px;
+  position: relative;
+}
+.login-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-9xl) 0 var(--padding-xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.google-sign-in-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #d36767, #cd1919);
+  cursor: pointer;
+  z-index: 2;
+}
+.google-icon {
+  height: 42px;
+  width: 43px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 42px;
+  z-index: 3;
+}
+.sign-in-with {
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 3;
+}
+.google-sign-in-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) 66px;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: 26px;
+  max-width: 100%;
+}
+.google-sign-in,
+.password-input {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.google-sign-in {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password-input {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.credentials,
+.email-input,
+.password-input {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.email-input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.credentials {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 5px 0 var(--padding-sm);
+  text-align: left;
+  font-size: 20px;
+}
+.credentials,
+.main-layout,
+.rectangle-parent1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.rectangle-parent1 {
+  width: 734px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-32xl) 57px 85px 56px;
+  gap: 70px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.main-layout {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-112xl) var(--padding-xl) var(--padding-112xl)
+    var(--padding-2xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .enter-your-email,
+  .login,
+  .sign-in-with,
+  .welcome-to-zieben-container {
+    font-size: var(--font-size-7xl);
+  }
+  .rectangle-parent1 {
+    gap: 35px;
+    padding: var(--padding-14xl) var(--padding-9xl) 55px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .google-sign-in-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .password-input {
+    gap: var(--gap-base);
+  }
+  .email-input {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us3,
+  .contact-us3,
+  .enter-your-email,
+  .feedback3,
+  .find-your-future5,
+  .home3,
+  .welcome-to-zieben-container {
+    font-size: var(--font-size-lgi);
+  }
+  .forget-password {
+    font-size: 16px;
+  }
+  .login,
+  .sign-in-with {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent1 {
+    gap: 17px;
+    padding-top: var(--padding-2xl);
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+}
